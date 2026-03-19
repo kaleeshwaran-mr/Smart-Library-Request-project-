@@ -1,0 +1,66 @@
+/***
+CSS to make report designer themable with UXF themes
+*/
+/* line 5, ../sass/polaris/polaris_report_designer_theming.scss */
+* {
+font-family: var(--now-font-family);
+}
+
+/* line 8, ../sass/polaris/polaris_report_designer_theming.scss */
+.highcharts-data-table caption {
+font-family: var(--now-font-family);
+}
+
+/* line 11, ../sass/polaris/polaris_report_designer_theming.scss */
+.sn-navhub-title {
+font-family: var(--now-font-family);
+}
+
+/* line 15, ../sass/polaris/polaris_report_designer_theming.scss */
+.rd {
+overflow-y: hidden;
+}
+/* line 18, ../sass/polaris/polaris_report_designer_theming.scss */
+.rd .nav-segmented > li {
+align-items: inherit;
+height: auto;
+line-height: 1.42857;
+}
+/* line 24, ../sass/polaris/polaris_report_designer_theming.scss */
+.rd .main-header > .title-area > .btn-icon::before {
+top: auto;
+}
+/* line 29, ../sass/polaris/polaris_report_designer_theming.scss */
+.rd .tree-navigation-wrap .tree-navigation > li .add-tree-item .icon-add::before {
+top: auto;
+}
+/* line 33, ../sass/polaris/polaris_report_designer_theming.scss */
+.rd .tree-navigation-wrap .tree-navigation > li button:not(.icon-delete):hover {
+text-decoration: none;
+}
+/* line 36, ../sass/polaris/polaris_report_designer_theming.scss */
+.rd .tree-navigation-wrap .tree-navigation > li button:not(.icon-delete):hover strong {
+text-decoration: underline;
+}
+
+/* line 44, ../sass/polaris/polaris_report_designer_theming.scss */
+#save-button-step-4.btn-primary:focus {
+color: RGB(var(--now-color--neutral-0, 255, 255, 255));
+}
+
+/* line 48, ../sass/polaris/polaris_report_designer_theming.scss */
+.display-grid-container > .display-grid-table-builder {
+margin-left: auto;
+margin-right: auto;
+}
+
+/* line 53, ../sass/polaris/polaris_report_designer_theming.scss */
+.report_control_label {
+min-width: 12em;
+}
+
+/* line 57, ../sass/polaris/polaris_report_designer_theming.scss */
+.compact .ng-filter-widget-column.field-col .btn.btn-select,
+.compact .ng-filter-widget-column .editor-col .btn.btn-select {
+height: 32px;
+}

@@ -1,0 +1,48 @@
+.sn-dot-walk-popover{margin-block-start:var(--now-global-space--xs,4px)!important;max-width:calc(100% - 140px);width:auto!important}
+.sn-dot-walk-popover .arrow{left:125px!important}
+.sn-dot-walk-popover .popover-content{padding:0}
+.sn-dotwalk-popover-container{width:100%}
+.sn-dotwalk-popover-trigger .sn-dotwalk-popover-trigger-icon{margin-inline-start:var(--now-global-space--xs,4px)}
+.sn-dot-walk-component{max-width:100%;min-height:340px;width:auto!important}
+.sn-dot-walk-component .sn-dot-walk-search-container{border-block-end:1px solid RGB(var(--now-color_border--primary,var(--now-color--neutral-7,135,147,148)));overflow:hidden;padding:var(--now-global-space--xs,4px)}
+.sn-dot-walk-component .sn-dot-walk-search-container::after,.sn-dot-walk-component .sn-dot-walk-search-container::before{display:table;content:""}
+.sn-dot-walk-component .sn-dot-walk-search-container:after{clear:both}
+.sn-dot-walk-component .sn-dot-walk-search-container .input-group-transparent{display:inline-block;width:240px}
+.sn-dot-walk-component .sn-dot-walk-search-container .input-group-transparent .input-group-addon-transparent{align-items:center;display:flex;height:32px;justify-content:center;left:0;top:0;width:32px}
+.sn-dot-walk-component .sn-dot-walk-search-container .input-group-transparent .form-control-search{border-radius:4px;padding-inline-start:32px}
+.sn-dot-walk-component .sn-dot-walk-search-container .dot-walk-loading-icon{margin:var(--now-global-space--sm,6px)}
+.sn-dot-walk-component .breadcrumb{background-color:transparent;display:inline-block;margin:0;padding:0 var(--now-global-space--md,10px)}
+.sn-dot-walk-component .breadcrumb .sn-breadcrumb-link.icon{margin:0 var(--now-global-space--xs,4px)}
+.sn-dot-walk-component .breadcrumb .sn-breadcrumb-link.icon::before{font-size:var(--now-global-font-size--sm, 12px)}
+.sn-dot-walk-component .breadcrumb .sn-breadcrumb-remove{text-decoration:line-through}
+.sn-dot-walk-component .sn-dot-walk-component-container{height:auto}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container{overflow-x:auto;white-space:nowrap}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul{border-inline-end:RGB(var(--now-color_border--secondary,var(--now-color--neutral-5,172,180,181)));display:inline-block;font-size:var(--now-global-font-size--md, 14px);height:300px;list-style:none;margin:0;overflow-y:auto;padding:0;width:250px}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul.glow{background-color:RGB(var(--now-button-stateful--primary_highlighted--background-color--selected_active,var(--now-button-stateful--primary--background-color--active,var(--now-button--bare_primary--background-color--active,var(--now-color--primary-2,23,100,82)))));color:RGB(var(--now-button--primary--color,var(--now-color--neutral-0,255,255,255)))}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul.outline-filter-field-list{border:1px solid RGB(var(--now-button--primary--border-color,var(--now-color--primary-3,15,67,55)))}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul .selected{background-color:RGB(var(--now-button-stateful--primary_highlighted--background-color--selected,var(--now-color--primary-2,23,100,82)));color:RGB(var(--now-button--primary--color,var(--now-color--neutral-0,255,255,255)))}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul .dot-walk-item{display:flex;position:relative}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul .dot-walk-item div:hover{background-color:RGB(var(--now-button-stateful--primary_highlighted--background-color--selected_hover,var(--now-button--primary--background-color--hover,var(--now-color--primary-2,23,100,82))));color:RGB(var(--now-button--primary--color,var(--now-color--neutral-0,255,255,255)))}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul .dot-walk-item div:hover .default-icon{display:none}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul .dot-walk-item div:hover .selected-icon{display:block}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul .dot-walk-item .selected .btn.btn-icon .default-icon{display:block}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul .dot-walk-item .selected .btn.btn-icon .selected-icon{display:none}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul .dot-walk-item .selected:hover .btn.btn-icon .default-icon{display:none}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul .dot-walk-item .selected:hover .btn.btn-icon .selected-icon{display:block}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul .dot-walk-item .dot-walk-item-label{align-items:center;display:inline-flex;flex:1 1 auto;overflow:hidden}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul .dot-walk-item .dot-walk-item-button{align-items:center;display:inline-flex;flex:0 0 24px}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul .no-results{padding:var(--now-global-space--xs,4px) var(--now-global-space--sm,6px)}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul .non-selectable-item:hover{cursor:default}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul a{font-weight:600;padding:var(--now-global-space--xs,4px);padding-inline-start:var(--now-global-space--md,10px);width:100%}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul a:focus~.btn.btn-icon .default-icon{display:none}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul a:focus~.btn.btn-icon .selected-icon{display:block}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul .btn.btn-icon{height:24px;min-width:24px;width:24px}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul .btn.btn-icon .default-icon{display:block}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul .btn.btn-icon .selected-icon{display:none}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul .btn.btn-icon:focus .default-icon{display:none}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul .btn.btn-icon:focus .selected-icon{display:block}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul .btn.btn-icon,.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul a{border-radius:0;color:inherit;text-decoration:none;transition:none}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul .btn.btn-icon:focus,.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container ul a:focus{box-shadow:inset 0 0 0 2px RGB(var(--now-color_focus-ring,var(--now-color--secondary-1,1,119,142))),inset 0 0 0 3px RGB(var(--now-color_focus-ring_shadow,var(--now-color_background--primary,var(--now-color--neutral-0,255,255,255))));outline:0}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container .loading{padding:var(--now-global-space--xxl,28px);text-align:center;width:100%}
+.sn-dot-walk-component .sn-dot-walk-component-container .sn-dot-walk-list-container .loading span{margin-block-end:var(--now-global-space--sm,6px)}
+.sn-dotwalk-label-target{height:1px;left:-1px;overflow:hidden;pointer-events:none;position:absolute;top:-1px;visibility:hidden;width:1px}

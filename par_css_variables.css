@@ -1,0 +1,69 @@
+:root, .-polaris {
+--par-color-darkest: #2e2e2e;
+--par-color-darker: #4a4a4a;
+--par-color-dark: #666666;
+
+--par-color-light: #cbcbcb;
+--par-color-lighter: #e6e9eb;
+--par-color-lightest: #ffffff;
+
+--par-color-accent: #1f8476;
+--par-color-accent-light: #5fbaa4;
+--par-color-accent-lighter: #b8e0d7;
+--par-color-accent-lightest: #eef8f8;
+
+--par-color-purple: #7070b3;
+--par-color-purple-light: #a2a2e2;
+--par-color-purple-lighter: #c9c9ed;
+
+--par-color-blue: #386acf;
+--par-color-blue-light: #7497de;
+--par-color-blue-lighter: #c4d3f2;
+
+--par-color-cyan: #51a5ba;
+--par-color-cyan-light: #91c3dc;
+--par-color-cyan-lighter: #b8ddef;
+
+--par-color-aqua: #6abecf;
+--par-color-aqua-light: #a7d4df;
+--par-color-aqua-lighter: #d5ecf0;
+
+--par-color-shamrock: #82c9b8;
+--par-color-shamrock-light: #b8e0d7;
+--par-color-shamrock-lighter: #82c9b8;
+
+--par-color-green: #48c891;
+--par-color-green-light: #84e3bc;
+--par-color-green-lighter: #b5ebd4;
+
+--par-color-yellow: #dfd139;
+--par-color-yellow-light: #ecdf93;
+--par-color-yellow-lighter: #f5ebc3;
+
+--par-color-orange: #ff8c3e;
+--par-color-orange-light: #e8a679;
+--par-color-orange-lighter: #fbd0b3;
+
+--par-color-red: #c83c36;
+--par-color-red-light: #fc8d8a;
+--par-color-red-lighter: #ffdadc;
+
+--par-color-pink: #dc143c;
+--par-color-pink-light: #ec758c;
+--par-color-pink-lighter: #fcd4dc;
+
+--par-color-black: #000000;
+--par-color-white: #ffffff;
+
+--par-color-positive: #48c891;
+--par-color-warning: #dfd139;
+--par-color-negative: #c83c36;
+
+--par--now-color--primary-1: rgb(var(--now-color--primary-1));
+--par--now-color--neutral-3: rgb(var(--now-color--neutral-3));
+--par--now-color--text--secondary: rgb(var(--now-color_text--secondary));
+--par--now-color--background-primary: rgb(var(--now-color_background--primary));
+--par--now-color--border-primary: rgb(var(--now-color_border--primary));
+--par--now-color--text-primary: rgb(var(--now-color_text--primary));
+
+}
